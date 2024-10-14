@@ -34,7 +34,7 @@ class Signup(Resource):
             bio=bio
         )
 
-        # the setter will encrypt this
+        
         user.password_hash = password
 
         try:
